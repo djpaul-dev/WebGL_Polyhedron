@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    cursor: crosshair;
+
+    /* Prevent user from selecting the text */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
+
+/* for splash screen */
+#loading { 
+    width: 25%;
+    height: 25%;
+    border: solid black 5rem;
+    background-color:white;
+}
+
+#loading h1 {
+    color: black;
+    font-size: 5rem;
+}
